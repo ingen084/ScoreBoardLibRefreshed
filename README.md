@@ -1,6 +1,10 @@
 # ScoreboardLib
 A flicker-free scoreboard library with support of text up to 48 characters.
 
+Fork
+--------------
+This is a fork for the original library.
+
 What is ScoreboardLib?
 --------------
 ScoreboardLib is a flexiable library for adding pretty, animated scoreboards to your plugin without requiring you to figure out how to get rid of random flickers or limitations. This library is introduced to dealt with following problems in the original API and similar libraries:
@@ -27,14 +31,15 @@ How do I add it to my project?
 Simply add the following to your `pom.xml`.
 
     <repository>
-      <id>tiger-repo</id>
-      <url>http://repo.tigerhix.me/content/repositories/snapshots/</url>
+        <id>jitpack.io</id>
+      	<url>https://jitpack.io</url>
     </repository>
 
     <dependency>
-      <groupId>me.tigerhix.lib</groupId>
-      <artifactId>scoreboard</artifactId>
-      <version>1.0.1-SNAPSHOT</version>
+        <groupId>com.github.Doc94</groupId>
+        <artifactId>ScoreBoardLibRefreshed</artifactId>
+        <version>master-SNAPSHOT</version>
+        <scope>compile</scope>
     </dependency>
 
 Now you are able to create your own pretty scoreboards.
