@@ -43,7 +43,7 @@ public class SimpleScoreboard implements Scoreboard {
         this.holder = holder;
         // Initiate the Bukkit scoreboard
         scoreboard = Bukkit.getScoreboardManager().getNewScoreboard();
-        scoreboard.registerNewObjective("board", "dummy").setDisplaySlot(DisplaySlot.SIDEBAR);
+        scoreboard.registerNewObjective("board", "dummy","board").setDisplaySlot(DisplaySlot.SIDEBAR);
         objective = scoreboard.getObjective(DisplaySlot.SIDEBAR);
     }
 
