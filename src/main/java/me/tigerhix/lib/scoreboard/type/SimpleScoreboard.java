@@ -12,7 +12,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scoreboard.DisplaySlot;
 import org.bukkit.scoreboard.Objective;
-import org.bukkit.scoreboard.Score;
 import org.bukkit.scoreboard.Team;
 
 import java.util.HashMap;
@@ -43,7 +42,7 @@ public class SimpleScoreboard implements Scoreboard {
         this.holder = holder;
         // Initiate the Bukkit scoreboard
         scoreboard = Bukkit.getScoreboardManager().getNewScoreboard();
-        scoreboard.registerNewObjective("board", "dummy","board").setDisplaySlot(DisplaySlot.SIDEBAR);
+        scoreboard.registerNewObjective("board", "dummy", "board").setDisplaySlot(DisplaySlot.SIDEBAR);
         objective = scoreboard.getObjective(DisplaySlot.SIDEBAR);
     }
 
