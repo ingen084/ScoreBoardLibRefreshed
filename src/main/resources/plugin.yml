@@ -3,3 +3,4 @@ version: 1.0.1
 description: Utilizing scoreboards for a UI enhancement.
 author: TigerHix, 2DevsStudio
 main: me.tigerhix.lib.scoreboard.ScoreboardLib
+api-version: 1.14
